@@ -38,14 +38,14 @@ var topImage = new Image();
 topImage.onload = function () {
     topReady = true;
 };
-topImage.src = "images/brickTop.jpg";
+topImage.src = "images/vineTop.png";
 
 var sideReady = false;
 var sideImage = new Image();
 sideImage.onload = function () {
     sideReady = true;
 };
-sideImage.src = "images/brickSide.jpg";
+sideImage.src = "images/vineSide.png";
 
 // bug image
 var bugReady = false;
